@@ -37,7 +37,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -55,18 +54,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "angular-ngrx-reducer-effects-conduit:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ang2-conduit:build:production"
+              "browserTarget": "angular-ngrx-reducer-effects-conduit:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ang2-conduit:build"
+            "browserTarget": "angular-ngrx-reducer-effects-conduit:build"
           }
         },
         "test": {
